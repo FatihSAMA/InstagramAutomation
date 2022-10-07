@@ -5,7 +5,7 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
 from datetime import datetime
-
+import os
 
 
 textColor = (255,255,255)
@@ -163,8 +163,10 @@ def InstaUpload(path):
      
     driver.close()
 
+    
+    
 
-
+path = os.getcwd()
 
 
 waitTime = 60*60*3
@@ -176,8 +178,8 @@ while True:
     Login(username, password)
 
     ImageTemp()
-
-    InstaUpload(r"C:\Users\fatih\Desktop\Masaüstü\Programming\InstagramAutomation\output.png")
+    
+    InstaUpload(path + "\\output.png")
 
     time.sleep(waitTime)
 
