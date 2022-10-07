@@ -8,22 +8,6 @@ from datetime import datetime
 import os
 
 
-textColor = (255,255,255)
-
-
-delayTime = 3
-
-description = """
-#altın #dolar #euro #döviz #kur #money #para #türklirası 
-#türk #gram #yatırım #alsat #finans #bütçe #banka #akbank 
-#enpara #enparacom #işbankası #garantibankası #dollar #avro 
-#exchange #holiday #turkey #btc #follow #eth #bitcoin
-"""
-
-
-
-username = input("Kullanıcı Adı: ")
-password = input("Şifre: ")
 
 
 def OpenBrowser():
@@ -165,6 +149,25 @@ def InstaUpload(path):
 
     
     
+    
+    
+#app
+textColor = (255,255,255)
+
+
+delayTime = 3
+
+description = """
+#altın #dolar #euro #döviz #kur #money #para #türklirası 
+#türk #gram #yatırım #alsat #finans #bütçe #banka #akbank 
+#enpara #enparacom #işbankası #garantibankası #dollar #avro 
+#exchange #holiday #turkey #btc #follow #eth #bitcoin
+"""
+
+
+
+username = input("Kullanıcı Adı: ")
+password = input("Şifre: ")
 
 path = os.getcwd()
 
